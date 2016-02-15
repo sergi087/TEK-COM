@@ -573,6 +573,7 @@ pre code {
 .col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
     position: relative;
     min-height: 1px;
+    padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px
 }
@@ -3964,9 +3965,8 @@ body {
 }
 
 .title{
-    font-size: 23px;
-    margin: 20px 0 30px;
-    padding: 0;
+    font-size: 1.5em;
+    padding: 0.5em;
 }
 
 .app .title small {
@@ -9761,4 +9761,104 @@ a.text-gray-lighter:hover,a.text-gray-lighter:focus {
 }
 button.btn.btn-primary-outline.btn-circle-large:hover {
     background: #039BE5;
+}
+
+
+.btn-label {
+    position: relative;
+    display: inline-block;
+    min-width: 30px;
+    background: 0 0;
+    padding: 8px 18px;
+    left: -24px;
+    border-radius: 2px 0 0 2px
+}
+
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.btn-success {
+    color: #fff!important;
+    background-color: #4caf50;
+    border-color: #4aab4e
+}
+
+.btn-success:focus,.btn-success.focus {
+    color: #fff;
+    background-color: #46a149;
+    border-color: #449d48
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #46a149;
+    border-color: #449d48
+}
+.card{
+    margin-bottom: 1.25rem;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    background: white;
+    border: 1px solid #e5e5e5;
+}
+
+.c-select {
+    width: 100%;
+    padding: .375rem 8rem .375rem .75rem;
+    padding-right: .75rem\9;
+    color: #55595c;
+    vertical-align: middle;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) right .75rem center no-repeat #fff;
+    background-image: none\9;
+    -webkit-background-size: 8px 10px;
+    background-size: 8px 10px;
+    border: 1px solid #ccc;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+.panel {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    border: 0
+}
+
+.panel,.panel .panel-heading {
+    position: relative;
+    border-radius: 0
+}
+.table-responsive {
+    overflow-x: auto;
+    min-height: .01%
+}
+.panel>.table-responsive {
+    max-width: 100%;
+    overflow: auto
+}
+
+.table thead tr th {
+    padding: 14px 8px;
+    color: #888;
+}
+
+thead {
+    background: red;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th{
+    border-top-left-radius: 3px;
+    border-bottom: 0;
+}
+
+.panel>.table:last-child,.panel>.table-responsive:last-child>.table:last-child,.panel>.table:last-child>tbody:last-child>tr:last-child,.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child,.panel>.table:last-child>tfoot:last-child>tr:last-child,.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
