@@ -9784,9 +9784,6 @@ button.btn.btn-primary-outline.btn-circle-large:hover {
     background-color: #46a149;
     border-color: #449d48
 }
-.card{
-    margin-bottom: 1.25rem;
-}
 
 .c-select {
     width: 100%;
@@ -9801,51 +9798,6 @@ button.btn.btn-primary-outline.btn-circle-large:hover {
     border: 1px solid #ccc;
     -moz-appearance: none;
     -webkit-appearance: none
-}
-
-.panel {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-    border: 0
-}
-
-.panel,.panel .panel-heading {
-    position: relative;
-    border-radius: 0
-}
-.table-responsive {
-    overflow-x: auto;
-    min-height: .01%
-}
-.panel>.table-responsive {
-    max-width: 100%;
-    overflow: auto
-}
-
-.table thead tr th {
-    padding: 14px 8px;
-    color: #888;
-}
-
-thead {
-    background: red;
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-th{
-    border-top-left-radius: 3px;
-    border-bottom: 0;
-}
-
-.panel>.table:last-child,.panel>.table-responsive:last-child>.table:last-child,.panel>.table:last-child>tbody:last-child>tr:last-child,.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child,.panel>.table:last-child>tfoot:last-child>tr:last-child,.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child {
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
 }
 
 .usuario{
@@ -9879,4 +9831,34 @@ tr {
 
 .guardar span {
     margin-right: 10px;
+}
+
+section {
+    margin-top: 25px;
+}
+
+.app table {
+ width: 100%;
+ border-collapse: collapse;
+ background: white;
+ color: #585f69;
+}
+
+.app table thead{
+    background: #415299;
+    color:white;
+} 
+
+.app td, th {
+ padding: 8px;
+ text-align: left;
+}
+
+.app tr:nth-of-type(odd) {
+ background: #FBFBFB;
+}
+ 
+.app th {
+ background: #415299;
+ font-weight: bold;
 }
