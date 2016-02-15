@@ -12,10 +12,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
     display: block
 }
 
-[hidden],template {
-    display: none
-}
-
 a {
     background-color: transparent
 }
@@ -56,10 +52,6 @@ img {
     border: 0;
     padding-top: 10px;
     padding-left: 10px;
-}
-
-svg:not(:root) {
-    overflow: hidden
 }
 
 hr {
@@ -4054,7 +4046,8 @@ margin-left: auto;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
     transition: -webkit-transform .35s;
-    transition: transform .35s
+    transition: transform .35s;
+    z-index: 1;
 }
 
 .csstransforms3d .aside-offscreen .app-container>aside {
@@ -9774,11 +9767,6 @@ button.btn.btn-primary-outline.btn-circle-large:hover {
     border-radius: 2px 0 0 2px
 }
 
-.btn-labeled {
-    padding-top: 0;
-    padding-bottom: 0
-}
-
 .btn-success {
     color: #fff!important;
     background-color: #4caf50;
@@ -9798,10 +9786,6 @@ button.btn.btn-primary-outline.btn-circle-large:hover {
 }
 .card{
     margin-bottom: 1.25rem;
-    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.05);
-    box-shadow: 0 2px 3px rgba(0,0,0,.05);
-    background: white;
-    border: 1px solid #e5e5e5;
 }
 
 .c-select {
@@ -9855,10 +9839,44 @@ th{
 
 .panel>.table:last-child,.panel>.table-responsive:last-child>.table:last-child,.panel>.table:last-child>tbody:last-child>tr:last-child,.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child,.panel>.table:last-child>tfoot:last-child>tr:last-child,.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child {
     border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px
+    border-bottom-left-radius: 3px;
+}
 
 tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
+}
+
+.usuario{
+    margin-right: 2em;
+    margin-top: 1em;
+    float: right;
+    width: 220px;
+    height: auto;
+}
+
+.usuario img {
+    margin-right: 15px;
+    float: left;
+}
+
+.usuario ul {
+    line-height: 1.25em;
+    list-style-type: none;
+    margin-bottom: auto;
+    margin-top: 16px;
+}
+
+.guardar{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4caf50;
+    border-color: #4aab4e;
+    height: 45px;
+    width: 150px;
+}
+
+.guardar span {
+    margin-right: 10px;
 }
