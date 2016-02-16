@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/vendor.css">
     <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/dataTables.bootstrap.min.css">
     <script src="scripts/modernizr.js"></script>
 
   </head>
@@ -117,34 +118,58 @@
 
 </aside>
   <section>
-  
       <div class="app">
-        <table>
-          <thead>
+
+        <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
             <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Email</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Descripcion</th>
+                <th># de Inventario</th>
+                <th>Asignado a</th>
+                <th>Comentarios</th>
             </tr>
-          </thead>
-          <tbody>
+        </thead>
+
+        <tbody>
             <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
             </tr>
             <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@example.com</td>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
             </tr>
             <tr>
-              <td>July</td>
-              <td>Dooley</td>
-              <td>july@example.com</td>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>$86,000</td>
             </tr>
-          </tbody>
-        </table>   
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+                <td>2012/03/29</td>
+                <td>$433,060</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
       </div>
   </section>
 
@@ -157,5 +182,9 @@
     <script src="scripts/vendor.js"></script>
     <script src="scripts/plugins.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/dataTables.min.js"></script>
+
+
   </body>
 </html>

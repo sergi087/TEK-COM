@@ -1089,11 +1089,11 @@ function() {
             ordering: !0,
             info: !0,
             oLanguage: {
-                sSearch: "Search all columns:",
-                sLengthMenu: "_MENU_ records per page",
-                info: "Showing page _PAGE_ of _PAGES_",
-                zeroRecords: "Nothing found - sorry",
-                infoEmpty: "No records available",
+                sSearch: "Buscar",
+                sLengthMenu: "Datos mostrados por pagina",
+                info: "Mostrar pagina por pagina",
+                zeroRecords: "No se encontraron datos",
+                infoEmpty: "No hay datos disponibles",
                 infoFiltered: "(filtered from _MAX_ total records)"
             }
         });
@@ -1102,11 +1102,11 @@ function() {
             ordering: !0,
             info: !0,
             oLanguage: {
-                sSearch: "Search all columns:",
-                sLengthMenu: "_MENU_ records per page",
-                info: "Showing page _PAGE_ of _PAGES_",
-                zeroRecords: "Nothing found - sorry",
-                infoEmpty: "No records available",
+                sSearch: "Buscar",
+                sLengthMenu: "Datos mostrados por pagina",
+                info: "Mostrar pagina por pagina",
+                zeroRecords: "No se encontraron datos",
+                infoEmpty: "No hay datos disponibles",
                 infoFiltered: "(filtered from _MAX_ total records)"
             }
         })

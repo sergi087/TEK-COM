@@ -3915,7 +3915,7 @@ body {
     border-right: 1px solid #c4c4c4;
     width: auto;
     transition: all .35s ease 0s;
-    will-change: margin
+    z-index: 2;
 }
 
 .app-container>section {
