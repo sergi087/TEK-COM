@@ -3912,8 +3912,8 @@ body {
     top: 70px;
     left: 0;
     bottom: 0;
-    border-right: 1px solid #c4c4c4;
-    width: auto;
+    border-right: 301px solid #c4c4c4;
+    width: 300px;
     transition: all .35s ease 0s;
     z-index: 2;
 }
