@@ -9861,3 +9861,77 @@ section {
  background: #415299;
  font-weight: bold;
 }
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+
+%clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+%link-style {
+  color: tomato;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: darken(tomato, 20%);
+    text-decoration: underline;
+  }
+}
+
+// readcrumb
+// -----------------------------------------------------------------------------
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.breadcrumb {
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-top: 0.25em; // Allows for breadcrumb wrapping
+  margin-right: 0.5em;
+  margin-bottom: 0.25em; // Allows for breadcrumb wrapping
+  padding: 0.5em;
+  background-color: white;
+  color: gray;
+  white-space: nowrap;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-width: 1em 0.25em 1em 0.5em;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+  }
+
+  + .breadcrumb {
+    margin-left: 0.75em;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 100%;
+      border-width: 1em 0.25em 1em 0.5em;
+      border-style: solid;
+      border-color: white white white transparent;
+    }
+  }
+}
+
+.clear{
+    clear: both;
+}
