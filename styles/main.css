@@ -1002,8 +1002,8 @@ caption,th {
 }
 
 fieldset {
-    margin: 0;
-    border: 0;
+    /*margin: 0;
+    border: 0;*/
     min-width: 0
 }
 
@@ -1011,12 +1011,10 @@ legend {
     display: block;
     width: 100%;
     padding: 0;
-    margin-bottom: 19px;
+    /* margin-bottom: 19px; */
+    margin-left: 10px;
     font-size: 19.5px;
     line-height: inherit;
-    color: #515d6e;
-    border: 0;
-    border-bottom: 1px solid #e5e5e5
 }
 
 label {
@@ -1123,9 +1121,9 @@ textarea.form-control {
     }
 }
 
-.form-group {
+/*.form-group {
     margin-bottom: 15px
-}
+}*/
 
 input[type="radio"][disabled],input[type="checkbox"][disabled],input[type="radio"].disabled,input[type="checkbox"].disabled,fieldset[disabled] input[type="radio"],fieldset[disabled] input[type="checkbox"],.radio-inline.disabled,.checkbox-inline.disabled,fieldset[disabled] .radio-inline,fieldset[disabled] .checkbox-inline,.radio.disabled label,.checkbox.disabled label,fieldset[disabled] .radio label,fieldset[disabled] .checkbox label {
     cursor: not-allowed
